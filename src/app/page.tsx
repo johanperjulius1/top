@@ -1,7 +1,12 @@
-import Toplist from "@/components/toplist";
+import React from 'react';
+import Menu from '@/components/Menu';
+import Toplist from '@/components/toplist';
 
-export default function Home (){  
+export default function Home() {
   return (
-    <Toplist/>
-  )
+    <div>
+      <Menu />
+      <Toplist/>
+    </div>
+  );
 }
